@@ -1,0 +1,6 @@
+Arduino_IoT/thingProperties.h
+Arduino_IoT/certs.h
+secrets/
+.DS_Store
+Arduino_IoT-Policy
+aws-iot-device-sdk-python-v2/
