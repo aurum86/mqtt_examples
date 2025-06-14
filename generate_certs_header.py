@@ -18,9 +18,12 @@ def generate_certs_header(cert_file, key_file, ca_file, output='certs.h'):
     print(f"✅ certs.h successfully created at: {output}")
 
 # Example usage — adjust filenames to your actual paths
+root_dir = "secrets"
+
 generate_certs_header(
-    cert_file="Arduino_IoT.cert.pem",
-    key_file="Arduino_IoT.private.key",
-    ca_file="root-CA.crt"
+    cert_file=root_dir + "Arduino_IoT.cert.pem",
+    key_file=root_dir + "Arduino_IoT.private.key",
+    ca_file=root_dir + "root-CA.crt",
+    output=root_dir + "certs.h"
 )
 

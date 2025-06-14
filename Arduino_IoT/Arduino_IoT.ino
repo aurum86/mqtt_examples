@@ -21,7 +21,7 @@ https://create.arduino.cc/cloud/things/8658a610-21f8-4f6b-8c14-fcbe037ba9f9
 // #include "certs.h"
   
 MKRIoTCarrier carrier;
-WiFiSSLClient net;
+WiFiClient net;
 PubSubClient client(net);
 
 void connectToWiFi() {
