@@ -1,5 +1,5 @@
-Arduino_IoT/thingProperties.h
-Arduino_IoT/certs.h
+*/thingProperties.h
+*/certs.h
 secrets/
 .DS_Store
 Arduino_IoT-Policy
